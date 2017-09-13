@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/speakerdetails_background"
+    tools:context="com.topcoder.innovate.Speaker_each">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="143dp"
+        android:id="@+id/speaker_pic_each"/>
+
+    <TextView
+        android:id="@+id/speaker_name_each"
+        android:layout_width="248dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="TextView"
+        android:layout_alignTop="@id/speaker_pic_each"
+        android:layout_toRightOf="@id/speaker_pic_each"
+        android:layout_toEndOf="@id/speaker_pic_each"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/speaker_title_each"
+        android:layout_marginTop="15dp"
+        android:layout_width="325dp"
+        android:layout_height="240dp"
+        android:layout_alignLeft="@id/speaker_pic_each"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@id/speaker_pic_each"
+        android:text="TextView"
+        android:textColor="@color/colorWhite"
+        android:textSize="16dp"/>
+
+    <ScrollView
+        android:id="@+id/speaker_details_each"
+        android:layout_marginTop="5dp"
+        android:layout_width="245dp"
+        android:layout_height="54dp"
+        android:layout_alignLeft="@+id/speaker_name_each"
+        android:layout_alignStart="@+id/speaker_name_each"
+        android:layout_below="@+id/speaker_name_each">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/speaker_details_text"
+                android:textColor="@color/colorBlue_details"
+                android:textSize="15dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_above="@+id/speaker_name_each"
+        android:layout_alignLeft="@+id/speaker_title_each"
+        android:layout_alignStart="@+id/speaker_title_each"
+        android:background="@android:color/transparent"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/HomeActivity"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@drawable/home_background"
+             android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:onClick="openDialog"
+        android:background="@android:color/transparent"
+        />
+
+    <ImageView
+        android:id="@+id/CheckIn"
+        android:layout_width="230px"
+        android:layout_height="200px"
+        android:src="@drawable/home_menucheckin"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="104dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <ImageView
+        android:id="@+id/Program"
+        android:layout_width="260px"
+        android:layout_height="200px"
+        android:src="@drawable/home_menuprogram"
+        android:layout_alignTop="@id/CheckIn"
+        android:layout_toRightOf="@id/CheckIn"
+        android:layout_toEndOf="@id/CheckIn"/>
+
+    <ImageView
+        android:id="@+id/Speaker"
+        android:layout_width="230px"
+        android:layout_height="200px"
+        android:src="@drawable/home_menuspeakers"
+        android:layout_toRightOf="@id/Program"
+        android:layout_toEndOf="@id/Program"
+        android:layout_alignTop="@id/Program"
+        />
+
+    <ImageView
+        android:id="@+id/HackAction"
+        android:layout_width="230px"
+        android:layout_height="200px"
+        android:src="@drawable/home_menuhackathon"
+        android:layout_below="@id/CheckIn"
+        android:layout_alignLeft="@id/CheckIn"
+        android:layout_alignStart="@id/CheckIn"/>
+
+    <ImageView
+        android:id="@+id/AppGallery"
+        android:layout_width="260px"
+        android:layout_height="200px"
+        android:src="@drawable/home_menugallery"
+        android:layout_alignTop="@id/HackAction"
+        android:layout_toRightOf="@id/HackAction"
+        android:layout_toEndOf="@id/HackAction"/>
+
+    <ImageView
+        android:id="@+id/Social"
+        android:layout_width="230px"
+        android:layout_height="200px"
+        android:src="@drawable/home_menusocial"
+        android:layout_centerVertical="true"
+        android:layout_alignTop="@id/AppGallery"
+        android:layout_toRightOf="@id/AppGallery"
+        android:layout_toEndOf="@id/AppGallery"/>
+
+    <ImageView
+        android:id="@+id/Parties"
+        android:layout_width="230px"
+        android:layout_height="200px"
+        android:src="@drawable/home_menuparties"
+        android:layout_below="@id/HackAction"
+        android:layout_alignLeft="@id/HackAction"
+        android:layout_alignStart="@id/HackAction"/>
+
+    <ImageView
+        android:id="@+id/Map"
+        android:layout_width="260px"
+        android:layout_height="200px"
+        android:src="@drawable/home_menumap"
+        android:layout_toRightOf="@id/Parties"
+        android:layout_toEndOf="@id/Parties"
+        android:layout_alignTop="@id/Parties"/>
+
+    <ImageView
+        android:id="@+id/Sponsors"
+        android:layout_width="230px"
+        android:layout_height="200px"
+        android:src="@drawable/home_menusponsors"
+        android:layout_toRightOf="@id/Map"
+        android:layout_toEndOf="@id/Map"
+        android:layout_alignTop="@id/Map"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+    <ImageView
+        android:id="@+id/Product"
+        android:layout_width="230px"
+        android:layout_height="170px"
+        android:src="@drawable/home_menuproduct"
+        android:layout_below="@id/Parties"
+        android:layout_alignLeft="@id/Parties"
+        android:layout_alignStart="@id/Parties"/>
+
+    <ImageView
+        android:id="@+id/Leaders"
+        android:layout_width="260px"
+        android:layout_height="170px"
+        android:src="@drawable/home_leaders"
+        android:layout_alignTop="@id/Product"
+        android:layout_toRightOf="@id/Product"
+        android:layout_toEndOf="@id/Product"/>
+
+    <ImageView
+        android:id="@+id/Badges"
+        android:layout_width="230px"
+        android:layout_height="170px"
+        android:src="@drawable/home_badges"
+        android:layout_alignTop="@id/Leaders"
+        android:layout_toRightOf="@id/Leaders"
+        android:layout_toEndOf="@id/Leaders"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+    <ImageView
+        android:id="@+id/Info"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/info_icon"/>
+
+    <ImageView
+        android:id="@+id/Home"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:src="@drawable/home_icon"/>
+</RelativeLayout>

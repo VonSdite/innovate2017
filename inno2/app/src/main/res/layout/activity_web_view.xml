@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_background"
+    tools:context="com.topcoder.innovate.WebViewActivity">
+
+
+    <WebView
+        android:id="@+id/Web"
+        android:layout_height="390dp"
+        android:layout_width="357dp"
+
+        tools:layout_editor_absoluteY="81dp"
+        android:layout_above="@+id/info"
+        android:layout_alignLeft="@+id/home"
+        android:layout_alignStart="@+id/home"/>
+
+    <ImageView
+        android:id="@+id/info"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/info_icon"/>
+
+    <ImageView
+        android:id="@+id/home"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:src="@drawable/home_icon"/>
+</RelativeLayout>

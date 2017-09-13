@@ -1,0 +1,85 @@
+[{"pk": 1, "model": "innovate.blingcoord", "fields": {"city": "San Francisco", 
+"name": "Bling Point 1 Zeum Museum", "zip": "94103", "longitude": "-122.402226", 
+"state": "CA", "address": "221 Fourth Street", "latitude": "37.783023", 
+"bling_id": 1234}}, {"pk": 2, "model": "innovate.blingcoord", "fields": {"city": 
+"San Francisco", "name": "Bling 2 SF Marriott", "zip": "94103", "longitude": 
+"-122.404886", "state": "CA", "address": "55 Fourth Street", "latitude": 
+"37.785126", "bling_id": 1235}}, {"pk": 3, "model": "innovate.blingcoord", 
+"fields": {"city": "San Francisco", "name": "Thirsty Bear Brewing Co", "zip": 
+"94105-3915", "longitude": "-122.399672", "state": "CA", "address": "661 Howard 
+St", "latitude": "37.785499", "bling_id": 1236}}, {"pk": 119, "model": 
+"innovate.blingcoord", "fields": {"city": "San Francisco", "name": "Quiznos, 3rd 
+St, SF", "zip": "94103", "longitude": "-122.403223", "state": "CA", "address": 
+"28 3rd Street ", "latitude": "37.787018", "bling_id": 5265}}, {"pk": 122, 
+"model": "innovate.blingcoord", "fields": {"city": "San Francisco ", "name": 
+"Bar 888", "zip": "94103", "longitude": "-122.404764", "state": "CA", "address": 
+"888 Howard Street ", "latitude": "37.782079", "bling_id": 5465}}, {"pk": 120, 
+"model": "innovate.blingcoord", "fields": {"city": "San Francisco ", "name": 
+"The Chieftain Pub", "zip": "94103", "longitude": "-122.405224", "state": "CA", 
+"address": "198 Fifth Street ", "latitude": "37.781463", "bling_id": 5464}}, 
+{"pk": 118, "model": "innovate.blingcoord", "fields": {"city": "San Francisco", 
+"name": "Mel's Drive-In", "zip": "94103", "longitude": "-122.40422", "state": 
+"CA", "address": "801 Mission Street ", "latitude": "37.784433", "bling_id": 
+5438}}, {"pk": 117, "model": "innovate.blingcoord", "fields": {"city": "San 
+Francisco", "name": "The Beer Bar", "zip": "94103", "longitude": "-122.401431", 
+"state": "CA", "address": "747 Howard St ", "latitude": "37.784078", "bling_id": 
+5437}}, {"pk": 123, "model": "innovate.blingcoord", "fields": {"city": "San 
+Francisco", "name": "The Barber Lounge", "zip": "94107", "longitude": 
+"-122.402337", "state": "CA", "address": "854 Folsom Street", "latitude": 
+"37.781050", "bling_id": 2147483647}}, {"pk": 124, "model": 
+"innovate.blingcoord", "fields": {"city": "San Fransisco", "name": "Cha Am 
+Restaurant & Lounge", "zip": "94107", "longitude": "-122.398781", "state": "CA", 
+"address": "701 Folsom Street", "latitude": "37.783829", "bling_id": 
+2147483647}}, {"pk": 125, "model": "innovate.blingcoord", "fields": {"city": 
+"San Francisco", "name": "Whats Up Dog Express", "zip": "94107", "longitude": 
+"-122.398781", "state": "CA", "address": "699 Folsom Street", "latitude": 
+"37.783829", "bling_id": 2147483647}}, {"pk": 126, "model": 
+"innovate.blingcoord", "fields": {"city": "San Francisco", "name": "Chaat Cafe", 
+"zip": "94107", "longitude": "-122.397762", "state": "CA", "address": "320 3rd 
+Street ", "latitude": "37.783044", "bling_id": 2147483647}}, {"pk": 127, 
+"model": "innovate.blingcoord", "fields": {"city": "San Francisco", "name": 
+"Osha Lounge & Restaurant", "zip": "94102", "longitude": "-122.387881", "state": 
+"CA", "address": "5 Embarcadero Center", "latitude": "37.785129", "bling_id": 
+2147483647}}, {"pk": 128, "model": "innovate.blingcoord", "fields": {"city": 
+"San Francisco", "name": "Oola", "zip": "94107", "longitude": "-122.402477", 
+"state": "CA", "address": "860 Folsom Street", "latitude": "37.780942", 
+"bling_id": 2147483647}}, {"pk": 129, "model": "innovate.blingcoord", "fields": 
+{"city": "San Francisco", "name": "Fuel Cafe", "zip": "94104", "longitude": 
+"-122.400882", "state": "CA", "address": "301 Pine St", "latitude": "37.792128", 
+"bling_id": 1234}}, {"pk": 130, "model": "innovate.blingcoord", "fields": 
+{"city": "San Francisco", "name": "Bistro Burger - Mission", "zip": "94105", 
+"longitude": "-122.394881", "state": "CA", "address": "201 Mission Street", 
+"latitude": "37.791828", "bling_id": 12341234}}, {"pk": 131, "model": 
+"innovate.blingcoord", "fields": {"city": "San Francisco", "name": "Bistro 
+Burger - Market", "zip": "94103", "longitude": "-122.406482", "state": "CA", 
+"address": "845 Market Street", "latitude": "37.785229", "bling_id": 
+123412345}}, {"pk": 132, "model": "innovate.blingcoord", "fields": {"city": "San 
+Francisco", "name": "Bistro Burger - Bush Street", "zip": "94104", "longitude": 
+"-122.403032", "state": "CA", "address": "333 Bush Street", "latitude": 
+"37.790889", "bling_id": 43124321}}, {"pk": 133, "model": "innovate.blingcoord", 
+"fields": {"city": "San Francisco", "name": "Bistro Burger - Drumm", "zip": 
+"94111", "longitude": "-122.396336", "state": "CA", "address": "21 Drumm 
+Street", "latitude": "37.793682", "bling_id": 2147483647}}, {"pk": 134, "model": 
+"innovate.blingcoord", "fields": {"city": "San Francisco", "name": "Bistro 
+Burger - Sansome", "zip": "94104", "longitude": "-122.401182", "state": "CA", 
+"address": "343 Sansome St # 150", "latitude": "37.793528", "bling_id": 
+41414141}}, {"pk": 135, "model": "innovate.blingcoord", "fields": {"city": "San 
+Francisco", "name": "Creperie Saint Germain", "zip": "94105", "longitude": 
+"-122.397228", "state": "CA", "address": "546 Howard Street", "latitude": 
+"37.787672", "bling_id": 2147483647}}, {"pk": 136, "model": 
+"innovate.blingcoord", "fields": {"city": "San Francisco", "name": "Nova Bar & 
+Restaurant", "zip": "94107", "longitude": "-122.392481", "state": "CA", 
+"address": "555 2nd Street", "latitude": "37.782329 ", "bling_id": 2147483647}}, 
+{"pk": 137, "model": "innovate.blingcoord", "fields": {"city": "San Francisco", 
+"name": "O'Neill's Irish Pub", "zip": "94014", "longitude": "-120.23423", 
+"state": "CA", "address": "747 Third Street", "latitude": "37.2345", "bling_id": 
+411141111}}, {"pk": 138, "model": "innovate.blingcoord", "fields": {"city": "San 
+Francisco", "name": "Mel's Drive-In", "zip": "94123", "longitude": 
+"-122.436808", "state": "CA", "address": "2165 Lombard Street", "latitude": 
+"37.799686", "bling_id": 2147483647}}, {"pk": 139, "model": 
+"innovate.blingcoord", "fields": {"city": "San Francisco", "name": "Parc 55", 
+"zip": "94102", "longitude": "-122.408627", "state": "CA", "address": "55 Cyril 
+Magnin Street", "latitude": "37.784931", "bling_id": 2147483647}}, {"pk": 140, 
+"model": "innovate.blingcoord", "fields": {"city": "San Francisco", "name": 
+"Chieftan Irish Pub", "zip": "94103", "longitude": "-122.405042", "state": "CA", 
+"address": "198 5th Street", "latitude": "37.781548", "bling_id": 888118181}}]
